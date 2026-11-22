@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "my-app",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-11-08",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "manufacturing",
+      "database_id": "4b5b97a4-777c-4eec-9153-a37dcfa5957f",
+      "migrations_dir": "drizzle"
+    }
+  ]
+}
