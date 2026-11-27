@@ -8,7 +8,8 @@
     "typecheck": "tsc --noEmit",
     "db:generate": "drizzle-kit generate",
     "db:migrate:local": "wrangler d1 migrations apply manufacturing --local",
-    "db:migrate:remote": "wrangler d1 migrations apply manufacturing --remote"
+    "db:migrate:remote": "wrangler d1 migrations apply manufacturing --remote",
+    "lint": "oxlint src"
   },
   "dependencies": {
     "drizzle-kit": "^0.31.11",
@@ -16,6 +17,9 @@
     "hono": "^4.13.16"
   },
   "devDependencies": {
+    "@stylistic/eslint-plugin": "^6.0.1",
+    "eslint-plugin-prefer-arrow-functions": "^3.10.2",
+    "oxlint": "^1.94.0",
     "typescript": "^7.0.2",
     "wrangler": "^4.110.0"
   }

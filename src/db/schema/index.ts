@@ -1,0 +1,11 @@
+// export * from './relations/products.relation';
+// export * from './relations/projects-images.relation';
+// export * from './relations/projects-products.relation';
+// export * from './relations/projects.relation';
+export * from './tables/about.table';
+export * from './tables/company-info.table';
+export * from './tables/partners.table';
+export * from './tables/products.table';
+export * from './tables/projects-products.table';
+export * from './tables/projects.table';
+export * from './tables/suppliers.table';

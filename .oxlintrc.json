@@ -1,0 +1,10 @@
+{
+  "jsPlugins": ["@stylistic/eslint-plugin", "eslint-plugin-prefer-arrow-functions", "./oxlint-local.js"],
+  "rules": {
+    "curly": ["error", "all"],
+    "@stylistic/quotes": ["error", "single", { "avoidEscape": true }],
+    "@stylistic/comma-dangle": ["error", "never"],
+    "prefer-arrow-functions/prefer-arrow-functions": ["error", { "returnStyle": "unchanged" }],
+    "local/wrapped-arrow-braces": "error"
+  }
+}

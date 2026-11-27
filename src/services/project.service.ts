@@ -1,4 +1,5 @@
 import { ProjectModel } from '@/models/project.model';
+// import { textNotNull} from '@/lib/drizzle.lib'
 
 const getProjectBySlug = (slug: string) => {
   return ProjectModel.findProjectBySlug(slug);
